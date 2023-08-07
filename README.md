@@ -3,9 +3,9 @@
 ## To include in your file
 To include these functions in you file, simply add this code to your `<head>` tag:
 ```html
-<script src="https://cdn.jsdelivr.net/gh/Kaamkiya/Random.js/Random.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/Kaamkiya/Random.js@master/Random.js"></script>
 ```
-and you're done!
+and that's it!
 #
 
 Many of these functions are inspired by the the Python module `random`.
