@@ -16,7 +16,7 @@ Many of these functions are from the Python module `random`.
   
   For example, `Random.shuffle(['a', 'b', 'c', 'd', 'e'])` might return `['e', 'a', 'd', 'c', 'b']`. 
   
-2. ### Random.choice()
+3. ### Random.choice()
   Takes 1 parameter, which can be an array or a string. 
 
   With a string:
