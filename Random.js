@@ -52,6 +52,15 @@ const Random = {
       output.push(Random.float(min, max))
     }
     return output;
+  }, 
+
+	hex: function() {
+  	const charset = '0123456789ABCDEF';
+	let colorCode = '#';
+	for (let i=0; i<6; i++) {
+		colorCode += charset[Random.int(0, charset.length-1)]
+	}
+	return colorCode;
   }
 };
 
