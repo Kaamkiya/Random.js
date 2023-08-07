@@ -1,11 +1,16 @@
 const Random = {
-  int: function(min, max) {
-    // Return random whole number
+  float: function(min, max) {
+    // Return random floating-point number
     min = Math.ceil(min);
     max = Math.floor(max);
     return Math.random() * (max - min + 1) + min;
   },
 
+  int: function(min, max) {
+  // Return random whole number
+	return Math.floor(Random.float(min, max));
+  },
+  
   shuffle: function(array) {
     // Move the items in an array into a random order
     for (let i = array.length - 1; i > 0; i--) {
@@ -18,7 +23,7 @@ const Random = {
   choice: function(thing) {
     // Pick a random letter from string or item from array
     if (typeof thing == 'string' || Array.isArray(thing)) {
-      return thing[Math.floor(Random.int(0, thing.length - 1))];
+      return thing[Random.int(0, thing.length - 1)];
     } else {
       return `cannot pick from ${typeof thing}`;
     }
@@ -28,7 +33,7 @@ const Random = {
     let final = [];
     sequence = sequence.toString();
     for (let i = 0; i < lengthOfReturn; i++) {
-      final.push(sequence[Math.floor(Random.int(0, sequence.length - 1))]);
+      final.push(sequence[Random.int(0, sequence.length - 1)]);
     }
     return final;
   },
@@ -36,9 +41,17 @@ const Random = {
   stringFromChars: function(chars = 'abc.xyz/123', len = 5) {
     let final = '';
     for (let i = 0; i < len; i++) {
-      final += chars[Math.floor(Random.int(0, chars.length - 1))]
+      final += chars[Random.int(0, chars.length - 1)]
     }
     return final;
+  },
+
+  multiFloat: function(min = 0, max = 1, amt = 4) {
+    let output = [];
+    for (let i = 0; i < amt; i++) {
+      output.push(Random.float(min, max))
+    }
+    return output;
   }
 };
 
