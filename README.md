@@ -89,6 +89,19 @@
    ```
    might return `[344.93213081522134, 588.1717011769693, 212.36081135233925]`
 
+8. ### Random.hex()
+   Takes 0 parameters.
+
+   Returns a hexadecimal color.
+
+   For example,
+   ```javascript
+   Random.hex()
+   ```
+   might return
+
+   `#A0A0FE`
+
 #
 
 [This Fiddle](https://jsfiddle.net/Kaamkiya/hcmu2pq6/87/) was used for developing the Plugin. 
