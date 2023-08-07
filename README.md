@@ -9,10 +9,8 @@ Many of these functions are from the Python module `random`.
   For a whole number, use `Math.floor()`.
    
 2. ### Random.shuffle
-  Credit to [Stack Overflow](https://stackoverflow.com/a/12646864)
+  <sub>Credit to [Stack Overflow](https://stackoverflow.com/a/12646864)</sub>
   
   Takes an array and randomizes the order of the items. 
   
-  For example, `Random.shuffle(['a', 'b', 'c', 'd', 'e'])` 
-  might return
-  `['e', 'a', 'd', 'c', 'b']`
+  For example, `Random.shuffle(['a', 'b', 'c', 'd', 'e'])` might return `['e', 'a', 'd', 'c', 'b']`. 
