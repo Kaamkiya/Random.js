@@ -1,7 +1,14 @@
 # Random.js
 
-> [!NOTE]
-> Many of these functions are from the Python module `random`.
+## To include in your file
+To include these functions in you file, simply add this code to your `<head>` tag:
+```html
+<script src="https://cdn.jsdelivr.net/gh/Kaamkiya/Random.js/Random.js"></script>
+```
+and you're done!
+#
+
+Many of these functions are inspired by the the Python module `random`.
 
 1. ### Random.float()
   Takes in the parameters `min` and `max` and returns a floating-point number between them. 
