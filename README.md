@@ -23,13 +23,14 @@ Many of these functions are from the Python module `random`.
   `Random.choice('TheQuickBrownFoxJumpsOverTheLazyDog')` might output `k`. 
 
   With an array: 
-  `Random.choice(['v', 'w', 'x', 'y', 'z'])` might output `x`. 
+  `Random.choice(['v', 'w', 'x', 'y', 'z'])` might output `x`.
 
 #
 
 [This Fiddle](https://jsfiddle.net/Kaamkiya/hcmu2pq6/87/) was used for developing the Plugin. 
 You can find the initial tests [here on p5.js](https://editor.p5js.org/Kaamkiya/sketches/qrsop9vjS)
 
+##
 <sub>
 Sorry if this is bad, it's my first Github project.
 </sub>
