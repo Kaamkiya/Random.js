@@ -53,6 +53,18 @@ Many of these functions are from the Python module `random`.
    ["i", "S", "c", "o", "s", "d", "d", "d", "l", "B", "T", "S", "T", "n", "l"]
    ```
 
+5. ### Random.stringFromChars()
+   Takes 2 parameters: `chars` (defaults to 'abc.xyz/123'), and `len` (defaults to 5).
+
+   Returns a random string based off of the characters you input.
+
+   For example,
+   ```javascript
+   Random.stringFromChars('I_like_pandas', 7)
+   ```
+   might return
+
+   `"nseIeai"`
 
 #
 
