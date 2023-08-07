@@ -107,7 +107,7 @@ Many of these functions are inspired by the the Python module `random`.
    ```
    might return
 
-   `#A0A0FE`
+   #A0A0FE
 
 #
 
