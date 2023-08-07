@@ -1,6 +1,6 @@
 # js-plugin-Random
 
-Many of these functions are from the Python module `random`.[^1]
+Many of these functions are from the Python module `random`.
 
 1. ### Random.integer()
   Takes in the parameters `min` and `max` and returns a number between them. 
@@ -17,7 +17,14 @@ Many of these functions are from the Python module `random`.[^1]
   For example, `Random.shuffle(['a', 'b', 'c', 'd', 'e'])` might return `['e', 'a', 'd', 'c', 'b']`. 
   
 2. ### Random.choice()
-  Takes parameters 
+  Takes 1 parameter, which can be an array or a string. 
 
-> [!NOTE]
-> Sorry if this is bad, it's my first Github project.
+  With a string:
+  `Random.choice('TheQuickBrownFoxJumpsOverTheLazyDog')` might output `k`. 
+
+  With an array: 
+  `Random.choice(['v', 'w', 'x', 'y', 'z'])` might output `x`. 
+
+<sub>
+Sorry if this is bad, it's my first Github project.
+</sub>
