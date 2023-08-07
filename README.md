@@ -30,6 +30,16 @@ Many of these functions are from the Python module `random`.
 
    Returns a random series of characters from `sequence` with the length of `lengthOfOutput`.
 
+   For example,
+   ```javascript
+   Random.sample('TurtlesAreLivingBeingsAndWeShouldBeNiceToThem', 15)
+   ```
+   might return
+   ```javascript
+   ["i", "S", "c", "o", "s", "d", "d", "d", "l", "B", "T", "S", "T", "n", "l"]
+   ```
+
+
 #
 
 [This Fiddle](https://jsfiddle.net/Kaamkiya/hcmu2pq6/87/) was used for developing the Plugin. 
