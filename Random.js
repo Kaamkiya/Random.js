@@ -18,6 +18,14 @@ const Random = {
       return `cannot pick from ${typeof thing}`;
     }
   },
+	sample: function(sequence, lengthOfReturn) {
+  	let final = [];
+	sequence = sequence.toString();
+	for (let i=0; i<lengthOfReturn; i++) {
+		final.push(sequence[Math.floor(Random.int(0, sequence.length-1))]);
+	}
+	return final;
+  }
 };
 
 console.log('Thank you for using Random.js! You can view more of my plugins at https://github.com/Kaamkiya/');
