@@ -24,6 +24,11 @@ Many of these functions are from the Python module `random`.
 
   With an array: 
   `Random.choice(['v', 'w', 'x', 'y', 'z'])` might output `x`.
+  
+4. ### Random.sample()
+   Takes 2 parameters: `sequence` and `lengthOfOutput`.
+
+   Returns a random series of characters from `sequence` with the length of `lengthOfOutput`.
 
 #
 
