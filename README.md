@@ -5,7 +5,11 @@ Many of these functions are from the Python module `random`.
 1. ### Random.integer()
   Takes in the parameters `min` and `max` and returns a number between them. 
   
-  For example, `Random.integer(0, 9)` might return `4.76561989019456`.
+  For example, 
+  ```javascript
+    Random.integer(0, 9)
+  ``` 
+  might return `4.76561989019456`.
 
   For a whole number, use `Math.floor()`.
    
@@ -14,16 +18,26 @@ Many of these functions are from the Python module `random`.
   
   Takes an array and randomizes the order of the items. 
   
-  For example, `Random.shuffle(['a', 'b', 'c', 'd', 'e'])` might return `['e', 'a', 'd', 'c', 'b']`. 
+  For example, 
+  ```javascript 
+    Random.shuffle(['a', 'b', 'c', 'd', 'e'])
+  ```
+  might return `['e', 'a', 'd', 'c', 'b']`. 
   
 3. ### Random.choice()
   Takes 1 parameter, which can be an array or a string. 
 
   With a string:
-  `Random.choice('TheQuickBrownFoxJumpsOverTheLazyDog')` might output `k`. 
+  ```javascript
+    Random.choice('TheQuickBrownFoxJumpsOverTheLazyDog')
+  ```
+  might output `'k'`. 
 
   With an array: 
-  `Random.choice(['v', 'w', 'x', 'y', 'z'])` might output `x`.
+  ```javascript
+    Random.choice(['v', 'w', 'x', 'y', 'z'])
+  ``` 
+  might output `'x'`.
   
 4. ### Random.sample()
    Takes 2 parameters: `sequence` and `lengthOfOutput`.
