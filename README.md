@@ -103,7 +103,7 @@ Random.multiFloat(0, 1000, 3)
 
    For example,
    ```javascript
-Random.hex()
+  Random.hex()
    ```
    might return
 
