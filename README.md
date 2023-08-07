@@ -15,16 +15,16 @@ Many of these functions are inspired by the the Python module `random`.
   
   For example, 
   ```javascript
-    Random.integer(0, 9)
+    Random.float(0, 9)
   ``` 
   might return `4.76561989019456`.
 
-2. ### Random.float()
+2. ### Random.int()
   Takes in the parameters `min` and `max` and returns a whole number between them. 
   
   For example, 
   ```javascript
-    Random.integer(57, 67)
+    Random.int(57, 67)
   ``` 
   might return `63`.
    
