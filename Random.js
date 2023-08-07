@@ -1,0 +1,3 @@
+const Random = {
+  randint: function() {}
+}
