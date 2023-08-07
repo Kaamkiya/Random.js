@@ -1,4 +1,4 @@
-# js-plugin-Random
+# Random.js
 
 Many of these functions are from the Python module `random`.
 
