@@ -1,6 +1,7 @@
 # Random.js
 
-Many of these functions are from the Python module `random`.
+> [!NOTE]
+> Many of these functions are from the Python module `random`.
 
 1. ### Random.float()
   Takes in the parameters `min` and `max` and returns a floating-point number between them. 
@@ -72,6 +73,21 @@ Many of these functions are from the Python module `random`.
    might return
 
    `"nseIeai"`
+
+7. ### Random.multiFloat()
+   Takes 3 parameters: `min`, `max`, and `amount`.
+
+   Returns `amount` floating-point numbers. 
+
+   `min` is the lowest the number can be, and `max` is the highest.
+
+   `amount` is the amount of numbers to return.
+
+   For example,
+   ```javascript
+     Random.multiFloat(0, 1000, 3)
+   ```
+   might return `[344.93213081522134, 588.1717011769693, 212.36081135233925]`
 
 #
 
