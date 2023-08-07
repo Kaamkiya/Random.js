@@ -3,7 +3,7 @@
 ## To include in your file
 To include these functions in you file, simply add this code to your `<head>` tag:
 ```html
-    <script src="https://cdn.jsdelivr.net/gh/Kaamkiya/Random.js@master/Random.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/Kaamkiya/Random.js@master/Random.js"></script>
 ```
 and that's it!
 #
@@ -15,7 +15,7 @@ Many of these functions are inspired by the the Python module `random`.
   
   For example, 
   ```javascript
-    Random.float(0, 9)
+Random.float(0, 9)
   ``` 
   might return `4.76561989019456`.
 
@@ -24,7 +24,7 @@ Many of these functions are inspired by the the Python module `random`.
   
   For example, 
   ```javascript
-    Random.int(57, 67)
+Random.int(57, 67)
   ``` 
   might return `63`.
    
@@ -35,7 +35,7 @@ Many of these functions are inspired by the the Python module `random`.
   
   For example, 
   ```javascript 
-    Random.shuffle(['a', 'b', 'c', 'd', 'e'])
+Random.shuffle(['a', 'b', 'c', 'd', 'e'])
   ```
   might return `['e', 'a', 'd', 'c', 'b']`. 
   
@@ -44,13 +44,13 @@ Many of these functions are inspired by the the Python module `random`.
 
   With a string:
   ```javascript
-    Random.choice('TheQuickBrownFoxJumpsOverTheLazyDog')
+Random.choice('TheQuickBrownFoxJumpsOverTheLazyDog')
   ```
   might output `'k'`. 
 
   With an array: 
   ```javascript
-    Random.choice(['v', 'w', 'x', 'y', 'z'])
+Random.choice(['v', 'w', 'x', 'y', 'z'])
   ``` 
   might output `'x'`.
   
@@ -61,11 +61,11 @@ Many of these functions are inspired by the the Python module `random`.
 
    For example,
    ```javascript
-   Random.sample('TurtlesAreLivingBeingsAndWeShouldBeNiceToThem', 15)
+Random.sample('TurtlesAreLivingBeingsAndWeShouldBeNiceToThem', 15)
    ```
    might return
    ```javascript
-   ["i", "S", "c", "o", "s", "d", "d", "d", "l", "B", "T", "S", "T", "n", "l"]
+["i", "S", "c", "o", "s", "d", "d", "d", "l", "B", "T", "S", "T", "n", "l"]
    ```
 
 6. ### Random.stringFromChars()
@@ -75,7 +75,7 @@ Many of these functions are inspired by the the Python module `random`.
 
    For example,
    ```javascript
-   Random.stringFromChars('I_like_pandas', 7)
+Random.stringFromChars('I_like_pandas', 7)
    ```
    might return
 
@@ -92,7 +92,7 @@ Many of these functions are inspired by the the Python module `random`.
 
    For example,
    ```javascript
-     Random.multiFloat(0, 1000, 3)
+Random.multiFloat(0, 1000, 3)
    ```
    might return `[344.93213081522134, 588.1717011769693, 212.36081135233925]`
 
@@ -103,7 +103,7 @@ Many of these functions are inspired by the the Python module `random`.
 
    For example,
    ```javascript
-   Random.hex()
+Random.hex()
    ```
    might return
 
