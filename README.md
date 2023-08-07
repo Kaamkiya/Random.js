@@ -1,7 +1,6 @@
 # js-plugin-Random
 
-Many of these functions are function from the Python module ```python 
-random```.
+Many of these functions are function from the Python module `random`.
 1. ### Random.integer
   Takes in the parameters `min` and `max` and returns a number between them. 
   For example, `Random.integer(0, 9)` might return `4.76561989019456`.
@@ -13,6 +12,8 @@ random```.
   
   Takes an array and randomizes the order of the items. 
   For example, 
-  `Random.shuffle(['a', 'b', 'c', 'd', 'e'])` 
+  ```javascript
+    Random.shuffle(['a', 'b', 'c', 'd', 'e'])
+  ``` 
   might return
   `['e', 'a', 'd', 'c', 'b']`
