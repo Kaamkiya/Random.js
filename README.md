@@ -2,8 +2,8 @@
 
 Many of these functions are from the Python module `random`.
 
-1. ### Random.integer()
-  Takes in the parameters `min` and `max` and returns a number between them. 
+1. ### Random.float()
+  Takes in the parameters `min` and `max` and returns a floating-point number between them. 
   
   For example, 
   ```javascript
@@ -11,9 +11,16 @@ Many of these functions are from the Python module `random`.
   ``` 
   might return `4.76561989019456`.
 
-  For a whole number, use `Math.floor()`.
+2. ### Random.float()
+  Takes in the parameters `min` and `max` and returns a whole number between them. 
+  
+  For example, 
+  ```javascript
+    Random.integer(57, 67)
+  ``` 
+  might return `63`.
    
-2. ### Random.shuffle()
+3. ### Random.shuffle()
   <sub>Credit to [Stack Overflow](https://stackoverflow.com/a/12646864)</sub>
   
   Takes an array and randomizes the order of the items. 
@@ -24,7 +31,7 @@ Many of these functions are from the Python module `random`.
   ```
   might return `['e', 'a', 'd', 'c', 'b']`. 
   
-3. ### Random.choice()
+4. ### Random.choice()
   Takes 1 parameter, which can be an array or a string. 
 
   With a string:
@@ -39,7 +46,7 @@ Many of these functions are from the Python module `random`.
   ``` 
   might output `'x'`.
   
-4. ### Random.sample()
+5. ### Random.sample()
    Takes 2 parameters: `sequence` and `lengthOfOutput`.
 
    Returns a random series of characters from `sequence` with the length of `lengthOfOutput`.
@@ -53,7 +60,7 @@ Many of these functions are from the Python module `random`.
    ["i", "S", "c", "o", "s", "d", "d", "d", "l", "B", "T", "S", "T", "n", "l"]
    ```
 
-5. ### Random.stringFromChars()
+6. ### Random.stringFromChars()
    Takes 2 parameters: `chars` (defaults to 'abc.xyz/123'), and `len` (defaults to 5).
 
    Returns a random string based off of the characters you input.
