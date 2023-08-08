@@ -64,4 +64,6 @@ const Random = {
   }
 };
 
+(function() {
 console.log('Thank you for using Random.js! You can view more of my plugins at https://github.com/Kaamkiya/');
+})();
