@@ -1,7 +1,7 @@
 # Random.js
 
 ## To include in your file
-To include these functions in you file, simply add this code to your `<head>` tag:
+To include these functions in your file, simply add this code to your `<head>` tag:
 ```html
 <script src="https://cdn.jsdelivr.net/gh/Kaamkiya/Random.js@master/Random.js"></script>
 ```
