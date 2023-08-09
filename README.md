@@ -94,9 +94,7 @@ Random.multiFloat(0, 1000, 3)
    might return `[344.93213081522134, 588.1717011769693, 212.36081135233925]`
 
 8. ### Random.hex()
-   Takes 0 parameters.
-
-   Returns a hexadecimal color.
+   Takes 0 parameters, and returns a hexadecimal color.
 
    For example,
 ```javascript
