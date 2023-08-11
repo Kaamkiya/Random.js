@@ -54,13 +54,22 @@ const Random = {
     return output;
   }, 
 
-	hex: function() {
+  hex: function() {
   	const charset = '0123456789ABCDEF';
-	let colorCode = '#';
-	for (let i=0; i<6; i++) {
-		colorCode += charset[Random.int(0, charset.length-1)]
-	}
-	return colorCode;
+	  let colorCode = '#';
+	  for (let i=0; i<6; i++) {
+	  	colorCode += charset[Random.int(0, charset.length-1)]
+	  }
+	  return colorCode;
+  }, 
+
+  rgb: function() {
+    return `rgb(${Random.int(0,255)}, ${Random.int(0,255)}, ${Random.int(0,255)})`
+  }, 
+
+  
+  hsl: function() {
+    return `hsl(${Random.int(0, 360)}, ${Random.int(0,100)}%, ${Random.int(0, 100)}%)`
   }
 };
 
