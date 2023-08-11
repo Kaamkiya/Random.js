@@ -114,7 +114,7 @@ Random.rgb()
    might return `rgb(23, 0, 170)`.
   
 11. ### Random.hsl()
-    Takes 0 parameters, and returns an RGB value.
+    Takes 0 parameters, and returns an HSL value.
 
    For example,
 ```javascript
