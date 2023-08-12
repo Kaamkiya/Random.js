@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Random.js Test</title>
+    <script src="https://cdn.jsdeliver.net/gh/Kaamkiya/Random.js@master/Random.js"></script>
+    <link rel="icon" href="https://uploads.scratch.mit.edu/get_image/user/75986416_500x500.png" />
+  </head>
+  <body>
+    <h2>Testing <a href="https://github.com/Kaamkiya/Random.js">Random.js</a></h2>
+    <hr/>
+    <h4 id="float"></h4>
+    <p class="expl">Test of <code>Random.float(0, 1000)</code></p>
+
+    <h4 id="int"></h4>
+    <p class="expl">Test of <code>Random.int(4, 33)</code></p>
+
+    <h4 id="shuffle"></h4>
+    <p class="expl">Test of <code>Random.shuffle(['a', 'b', 'c', d', 'e', 'f', 'g'])</code></p>
+
+    <h4 id="choiceString"></h4>
+    <p class="expl">Test of <code>Random.choice('TheQuickBrownFoxJumpsOverTheLazyDog')</code></p>
+
+    <h4 id="choiceArray"></h4>
+    <p class="expl">Test of <code>Random.choice(['a', 'b', 'c', 'd', 'e', 'f', 'g'])</code></p>
+
+    <h4 id="choiceObj"></h4>
+    <p class="expl">Test of <code>Random.choice({ploop: 10, goik: 'turtle'})</code></p>
+
+    <h4 id="sample"></h4>
+    <p class="expl">Test of <code>Random.sample('TurtlesAreLivingThingsAndWeShouldBeNiceToThem. ', 5)</code></p>
+
+    <h4 id="strFromChars"></h4>
+    <p class="expl">Test of <code>Random.stringFromChars('HelloWorld!', 10)</code></p>
+
+    <h4 id="multiFloat"></h4>
+    <p class="expl">Test of <code>Random.multiFloat(0, 1000, 3)</code></p>
+
+    <h4 id="hex"></h4>
+    <p class="expl">Test of <code>Random.hex()</code></p>
+	
+	<h4 id="rgb"></h4>
+    <p class="expl">Test of <code>Random.rgb()</code></p>
+	
+	<h4 id="hsl"></h4>
+    <p class="expl">Test of <code>Random.hsl()</code></p>
+
+    <script>
+      document.getElementById('float').innerText = Random.float(0, 1000);
+      document.getElementById('int').innerText = Random.int(4, 33);
+      document.getElementById('shuffle').innerText = Random.shuffle(['a', 'b', 'c', 'd', 'e', 'f', 'g']);
+      document.getElementById('choiceString').innerText = Random.choice('TheQuickBrownFoxJumpsOverTheLazyDog');
+      document.getElementById('choiceArray').innerText = Random.choice(['a', 'b', 'c', 'd', 'e', 'f', 'g']);
+      document.getElementById('choiceObj').innerText = Random.choice({ploop: 10,goik: 'turtle'});
+      document.getElementById('sample').innerText = Random.sample('TurtlesAreLivingThingsAndWeShouldBeNiceToThem. ', 5)
+      document.getElementById('strFromChars').innerText = Random.stringFromChars('HelloWorld!', 10)
+      document.getElementById('multiFloat').innerText = Random.multiFloat(0, 1000, 3);
+      const hex = Random.hex();
+      document.getElementById('hex').innerText = hex;
+      document.getElementById('hex').style.backgroundColor = hex;
+      const rgb = Random.rgb();
+      document.getElementById('rgb').innerText = rgb;
+      document.getElementById('rgb').style.backgroundColor = rgb;
+      const hsl = Random.hsl();
+      document.getElementById('hsl').innerText = hsl;
+      document.getElementById('hsl').style.backgroundColor = hsl;
+    </script>
+  </body>
+
+</html>
+
+  </body>
+</html>
